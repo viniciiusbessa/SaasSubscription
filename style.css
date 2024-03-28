@@ -1,0 +1,322 @@
+.cabe{
+    display: flex;
+    font-family: roboto;
+    justify-content: space-between;
+}
+
+.opcoes-cabe{
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    font-size: 15px;
+}
+
+.opcoes-cabe button{
+    margin-left: 50px;
+}
+
+.opcoes-cabe h2 {
+    margin: 0 10px;
+}
+
+.cabe button{
+    background-color: rgba(71, 59, 240, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: roboto;
+    font-style: bolder;
+    width: 170px;
+    height: 59px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+    margin-top: auto;
+}
+
+.cabe :hover{
+    background-color: rgb(39, 31, 158);
+    cursor: pointer;
+}
+
+.pagina1{
+    text-align: center;
+    font-family: roboto;
+}
+
+.titulo-page1{
+    font-size: 48px;
+}
+
+.subtitulo-page1{
+    color: rgba(22, 28, 45, 1);
+    font-weight: 400;
+    line-height: 25px;
+    font-size: 19px;
+    opacity: 70%;
+}
+
+.pagina1 button{
+    background-color: rgba(71, 59, 240, 1);
+    color: rgba(255, 255, 255, 1);
+    font-family: roboto;
+    font-style: bolder;
+    width: 227px;
+    height: 59px;
+    border-radius: 10px;
+    border: none;
+    font-size: 19px;
+}
+
+.botoes-page1 .botao-start-page1 :hover{
+    background-color: rgb(39, 31, 158);
+    cursor: pointer;
+}
+
+.botoes-page1 .learn-page1{
+    background: none;
+    color: black;
+    background-color: transparent;
+    border: none;
+    font-weight: 700;
+    width: 200px;
+    margin-left: 15px;
+}
+
+.botoes-page1{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imagesession-page1{
+    border-radius: 10px;    
+    width: 844px;
+    height: 559px;
+
+}
+
+.grade-pagina1{
+    display: flex;
+    text-align: left;
+    justify-content: center;
+    font-size: 21px;
+    
+}
+
+.objetograde-pagina1{
+    margin: 70px;
+}
+
+.subtitulograde-pagina1{
+    font-weight: 300;
+}
+
+
+/*sessao 2*/
+
+.Secao2{
+    background-color: #161C2D;
+    padding: 5% 0;
+    height: 1600px;
+ 
+}
+ 
+.Texto h1{
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-left: 36px;
+    justify-content: center;
+}
+ 
+.Texto p{
+    display: flex;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: roboto;
+    font-size: 19px;
+    font-weight: 200;
+    line-height: normal;
+    margin-left: 36px;
+    justify-content: center;
+    height: 64px;
+    margin-top: 1.5%
+}
+ 
+main.cards{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+ 
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: #FFFFFF;
+    padding: 1rem 1.5rem;
+    border-radius: 15px;
+    margin-left: 5rem;
+    width: 350px;
+    height: 441px;
+}
+ 
+main.cards section.card:first-child{
+    margin-left: 0;
+}
+ 
+main.cards section.card .icon{
+    height: auto;
+    width: 400px;
+}
+ 
+main.cards section.card .botao1{
+    margin-top: 40px;
+    padding: 0.5rem 1rem;
+ 
+    /* Config Fonte */
+    color: #473BF0;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+    font-family: roboto;
+    font-style: normal;
+    opacity: 100%;
+ 
+    /* Config Botão */
+ 
+    border-radius: 20px;
+    border: 0;
+    cursor: auto;
+    background: #e3e1ff;
+    width: 100px;
+    height: 29px;
+    margin-top: 5px;
+}
+ 
+main.cards section.card h3{
+    color: #161C2D;
+    text-align: center;
+    font-family: roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    line-height: normal;
+    margin-top: 50px;
+}
+ 
+main.cards section.card span{
+    color: black;
+    text-align: center;
+    font-family: roboto;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 10px;
+}
+ 
+ 
+main.cards section.card p{
+    color: #161C2D;
+    text-align: center;
+    font-family: roboto;
+    font-size: 17px;
+    font-style: normal;
+    line-height: 29px;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 40px;
+}
+ 
+main.cards section.card button{
+    margin-top: 60px;
+    padding: 0.5rem 1rem;
+ 
+    /* Config Fonte */
+    color: white;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+    font-family: roboto;
+    font-style: normal;
+ 
+    /* Config Botão */
+ 
+    border-radius: 12px;
+    border: 0;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #473BF0;
+    width: 318px;
+    height: 59px;
+    margin-top: 70px;
+}
+ 
+.grade-pagina2{
+    display: grid;
+    position: absolute;
+    text-align: left;
+    padding-left: 17.5%;
+    justify-content: center;
+    font-family: roboto;
+    color: white;
+}
+ 
+.grade-pagina2 .objetograde-pagina2 .imagem2{
+    display: flex;
+}
+ 
+.grade-pagina2 .objetograde-pagina2 .imagem2 img{
+    display: flex;
+    padding-right: 20px;
+}
+ 
+.grade-pagina2 .mae{
+    display: flex;
+    margin-top: 8%;
+    justify-content: center;
+}
+ 
+.grade-pagina2 .mae :last-child{
+    margin-right: 200px;
+}
+ 
+.grade-pagina2 .filha{
+    display: flex;
+    margin-top: 6%;
+    justify-content: center;
+}
+ 
+.grade-pagina2 .filha :last-child{
+    margin-right: 200px;
+}
+ 
+.grade-pagina2 h3{  
+    font-size: 21px;
+}
+ 
+.grade-pagina2 h4{
+    margin: 7%;
+    width: 100%;
+    font-weight: 300;
+    font-size: 17px;
+}
+ 
+.imagem-pagina2{
+    justify-content: center;
+}
+ 
+footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 750px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
